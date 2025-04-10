@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+IT+Moderna:wght@100..400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -29,9 +30,11 @@
       <main>
         <div class="weather-info">
           <h1 id="city">
-            <strong> Moscow </strong>
+            <strong> </strong>
           </h1>
-          <div class="today-emoji">⛅ <span class="degree">12&deg;C</span></div>
+          <div class="today-emoji">
+            ⛅ <span class="degree" id="degree"></span>&degF
+          </div>
         </div>
         <p class="description">
           Tuesday <span class="weather-stats">14:49</span>, Partly Cloudy
