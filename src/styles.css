@@ -58,6 +58,10 @@ h1 {
   font-size: 75px;
   margin-top: -60px;
 }
+img {
+  width: 115px;
+  height: 115px;
+}
 .degree {
   text-align: right;
   font-size: 85px;
