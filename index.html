@@ -15,19 +15,20 @@
   <body>
     <div class="page">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="search-bar"
+            id="search-bar"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
         <div class="weather-info">
-          <h1>
+          <h1 id="city">
             <strong> Moscow </strong>
           </h1>
           <div class="today-emoji">⛅ <span class="degree">12&deg;C</span></div>
@@ -72,6 +73,6 @@
         >
       </footer>
     </div>
-    <script src="src/index.js"></script>
+    <script src="src/index.jsx"></script>
   </body>
 </html>
